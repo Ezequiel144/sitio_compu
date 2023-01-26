@@ -1,3 +1,6 @@
+.header{
+}
+
 .imgport{
     background-image: url("../imagenes/lorenzo-herrera-p0j-mE6mGo4-unsplash.jpg");
     background-size: cover;
@@ -10,6 +13,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    
     &__tiltext{
 
         /*margin: auto;
@@ -50,20 +54,17 @@
 .menu{
     //border: 1px solid red;
     font-family: 'Open Sans',sans-serif;
-    display: block;
     position: absolute;
     top: 0;
-    right: -150px;
-    transition: 1s;
-    /* background-image: linear-gradient(150deg, #924315 0, #8b371a 10%, #802b1c 20%, #701d1c 30%, #5d0f19 40%, #470113 50%, #320007 60%, #260000 70%, #190000 80%, #050000 90%, #000000 100%);
-     */
+    right: 0;
+    transition: all 0.5s ease-in-out;
+    transform: translate(110%);
     background-color: rgba(0, 0, 0);
     padding: 20px;
     height: 100vh;
     width: 150px;
     &__list{
         //border: 1px solid blue;
-        transition: 2s;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
