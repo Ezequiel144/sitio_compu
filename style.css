@@ -1,5 +1,5 @@
 .imgport {
-  background-image: url("../imagenes/lorenzo-herrera-p0j-mE6mGo4-unsplash.jpg");
+  background-image: url("../imagenes/imagenMain.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -45,11 +45,12 @@
   top: 0;
   right: 0;
   transition: all 0.5s ease-in-out;
-  transform: translate(100%);
+  /* transform: translate(100%); */
   background-color: rgb(0, 0, 0);
   padding: 20px;
-  height: 100vh;
+  height: 100%;
   width: 150px;
+  display: none;
 }
 .menu__list {
   display: flex;
@@ -171,6 +172,7 @@
 }
 .sec3__content__img {
   width: 280px;
+  height: 240px;
 }
 .sec3__content__text {
   margin-top: 10px;
@@ -186,6 +188,33 @@
     width: 280px;
     height: 240px;
   }
+}
+
+.footer {
+  height: 150px;
+  display: flex;
+  align-items: center;
+}
+
+.foot {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+.foot__title {
+  font-weight: 400;
+}
+.foot__text {
+  font-weight: 300;
+  max-width: 330px;
+}
+.foot__conten {
+  display: flex;
+  gap: 15px;
+}
+.foot__conten__img {
+  width: 35px;
+  height: 40px;
 }
 
 * {

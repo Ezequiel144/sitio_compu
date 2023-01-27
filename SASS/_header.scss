@@ -2,7 +2,7 @@
 }
 
 .imgport{
-    background-image: url("../imagenes/lorenzo-herrera-p0j-mE6mGo4-unsplash.jpg");
+    background-image: url("../imagenes/imagenMain.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -58,12 +58,12 @@
     top: 0;
     right: 0;
     transition: all 0.5s ease-in-out;
-    transform: translate(100%);
+    /* transform: translate(100%); */
     background-color: rgba(0, 0, 0);
     padding: 20px;
-    height: 100vh;
+    height: 100%;
     width: 150px;
-    //display: none;
+    display: none;
     &__list{
         //border: 1px solid blue;
         display: flex;
