@@ -1,5 +1,6 @@
 .sec1{
     //border: 1px solid red;
+    margin: 35px 0;
     padding: 10px;
     &__content{
         //border: 1px solid blue;
@@ -94,6 +95,7 @@
 
 .sec3{
     //border: 1px solid blue;
+    margin:40px 0;
     padding: 10px;
     &__title{
         text-align: center;
@@ -116,7 +118,6 @@
         gap: 0px;
         &__img{
             width: 280px;
-            height: 240px;
             //border: 1px solid blue;
         }
         &__text{
